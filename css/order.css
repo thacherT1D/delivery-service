@@ -11,6 +11,33 @@ header {
   justify-content: center;
 }
 
+.card .card-title {
+  font-size: 1.7vw;
+}
+
+@media only screen and (max-width: 992px) {
+  .card .card-title {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card .card-title {
+    font-size: 4.5vw;
+  }
+}
+
+/* card action a */
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  color: #e91e63;
+}
+
+/* card action a hover */
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
+  color: #f48fb1;
+
+}
+
 i {
   vertical-align: bottom;
 }
@@ -19,9 +46,26 @@ main {
   margin: 30px 0;
 }
 
+
 .brand-logo, .button-collapse {
   margin-left: 10px;
 }
 a {
   color: white;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #e91e63;
+}
+
+/* textarea label focus color */
+textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #e91e63;
+}
+
+/* textarea underline focus color */
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #e91e63;
+  box-shadow: 0 1px 0 0 #e91e63;
 }
