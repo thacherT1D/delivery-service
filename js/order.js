@@ -105,6 +105,7 @@ $(document).ready(function() {
     }
 
     Materialize.toast('Order placed. Thank you!', 4000);
+    $('#name') = "";
 
     event.preventDefault();
   })
