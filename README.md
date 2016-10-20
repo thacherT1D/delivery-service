@@ -1,3 +1,6 @@
+## Version of a student project built out with generated issues (from a ruby script) in order to show the user case for waffle.io -- our [delivery-service waffle.io](https://waffle.io/thacherT1D/delivery-service)
+
+
 # Galvanize Delivers
 
 In this exercise, you're tasked with creating a website for a fine dining delivery service with two pages—a landing page and an ordering page. To get started, fork and clone this repository.
